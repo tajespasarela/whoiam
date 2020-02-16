@@ -1,14 +1,14 @@
 # Instructions
 
 - Fork the repo from https://github.com/empathyco/whoiam
-- Add USERNAME and EMAIL as secrets in https://github.com/<USERNAME>/whoiam/settings/secrets
-- Enable Actions in https://github.com/<USERNAME>/whoiam/actions
-- Clone the repository forked as 'git clone https://github.com/<USERNAME>/whoiam.git'
+- Add USERNAME and EMAIL as secrets in https://github.com/*USERNAME*/whoiam/settings/secrets
+- Enable Actions in https://github.com/*USERNAME*/whoiam/actions
+- Clone the repository forked as 'git clone https://github.com/*USERNAME*/whoiam.git'
 - Add two different pictures under *src/assets/img/* path
-- Change variables, add/delete social networks and change images as 'assets/img/<FILE_NAME>.<EXTENSION>' to point to the images added in the previous step in *app.component.ts* file
+- Change variables, add/delete social networks and change images as 'assets/img/*FILE_NAME*.*EXTENSION*' to point to the images added in the previous step in *app.component.ts* file
 - Push the changes to launch the pipeline
-- A gh-pages branch will be created and after some minutes the whoiam app will be deployed under https://<USERNAME>.github.io/whoiam
-- If the app is not deployed, check if you have enabled the GitHub Pages section under https://github.com/<USERNAME>/whoiam settings with Source as gh-pages branch. If necessary, change to None and then select again gh-pages branch
+- A gh-pages branch will be created and after some minutes the whoiam app will be deployed under https://*USERNAME*.github.io/whoiam
+- If the app is not deployed, check if you have enabled the GitHub Pages section under https://github.com/*USERNAME*/whoiam settings with Source as gh-pages branch. If necessary, change to None and then select again gh-pages branch
 
 # About this repository
 
