@@ -1,0 +1,28 @@
+ <mat-grid-list cols="2" rows="1" class="page-grid">
+   <mat-grid-tile [colspan]="1" [rowspan]="1">
+     <mat-card class="card">
+       <mat-card-header>
+         <div mat-card-avatar class="header-image" style.background-image="url({{smallImage}})"></div>
+         <mat-card-title>{{name}}</mat-card-title>
+         <mat-card-subtitle>{{job}}</mat-card-subtitle>
+       </mat-card-header>
+       <img mat-card-image width="50%" [src]="bigImage" alt="Photo">
+       <mat-card-content>
+         <p>
+           {{description}}
+         </p>
+       </mat-card-content>
+       <mat-card-actions>
+         <ng-container *ngFor="let item of rrss">
+           <button mat-button (click)="navigateTo(item.url)">
+             <fa-icon [icon]="item.icon" size="2x"></fa-icon>
+           </button>
+         </ng-container>
+       </mat-card-actions>
+     </mat-card>
+   </mat-grid-tile>
+   <mat-grid-tile [colspan]="1" [rowspan]="1">
+     <a href="https://empathy.co">
+       <img src="assets/img/logo-animated.gif">
+     </a></mat-grid-tile>
+ </mat-grid-list>
