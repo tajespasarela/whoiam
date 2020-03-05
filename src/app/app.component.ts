@@ -15,9 +15,9 @@ import {
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  name = 'Emily Wazowski';
-  job = 'Search Engineer';
-  description = 'Emily has been working with Empathy since 2017 and she is a lovely developer interested in animals and extreme sports. Ask her about any issue you face and she will solve the problem just in minutes.';
+  name = 'Iván Tajes';
+  job = 'Frontend Developoer';
+  description = 'Keeping myself alive';
   smallImage = 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80';
   bigImage = 'https://images.unsplash.com/photo-1569012871812-f38ee64cd54c';
 
